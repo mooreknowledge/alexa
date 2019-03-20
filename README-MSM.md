@@ -45,5 +45,5 @@ send a reminder if the next days file isn't uploaded to Google Drive.
 ## Troubleshooting & FAQ
 - If  the Alexa script does not find the file needed for the day after tomorrow, then an Alert message is posted into the automation channel in the Samson House slack workspace.
 - If the Alexa script does not find the file needed for tomorrow, then a Warning message is posted into the automation channel in the Samson House slack workspace and a notification e-mail is sent to Trey Shaver and Tom Mouka
--- Contained in that warning e-mail is a link to the Google folder to upload the next audio file
+  - Contained in that warning e-mail is a link to the Google folder to upload the next audio file
 - If the next audio file is uploaded after 1a ET on the day of publication, then Alex will continue to play the previous day's audio file until the new file is processed and moved into the publication folder.  An on-demand link is available to trigger the Alexa processing script after the file is uploaded.
