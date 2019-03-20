@@ -6,10 +6,14 @@ in Florida.  (See documentation for Samson House Raspberry Pi for
 additional details.)
 
 ## Workflow Concept
-### Step 1 - Tom Mouka records the audio file for the daily devotion and saves it with a numeric sequence file name.
-### Step 2 - Tom Mouka uploads the recorded audio file into the Samson House Google Drive account (piratemonkscal@gmail.com - see password spreadsheet for credentials) into the _______ folder
-### Step 3 - An automated script runs every morning at 01:00a ET which processes the next numerically sequenced audio file and moves it into a publication folder where Alexa can retrieve it via API.
-### Step 4 - Alexa pulls the audio file via API on-demand as needed to play the skill
+### Step 1
+Tom Mouka records the audio file for the daily devotion and saves it with a numeric sequence file name.
+### Step 2
+Tom Mouka uploads the recorded audio file into the Samson House Google Drive account (piratemonkscal@gmail.com - see password spreadsheet for credentials) into the _______ folder
+### Step 3
+An automated script runs every morning at 01:00a ET which processes the next numerically sequenced audio file and moves it into a publication folder where Alexa can retrieve it via API.
+### Step 4
+Alexa pulls the audio file via API on-demand as needed to play the skill
 
 ## Requirements
 Daily Automation for Samson House Alexa Skill Depends on Google Drive API for Python.
